@@ -1,0 +1,31 @@
+### Conda enviroment pyqcm
+
+# Getting and installing conda (if not done already)
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh 		# Follow the installation steps
+exit						# It's always good to restart the shell at this point
+
+# Creating and activating a conda env
+
+conda create -n qcm_conda
+conda activate qcm_conda
+
+# Installing dependency packages
+
+conda install python=3.10
+conda install numpy scipy matplotlib pandas omnia::eigen3 ninja
+
+# Exports
+
+export CMAKE_ARGS="-DDOWNLOAD_CUBA=1 -DEIGEN_HAMILTONIAN=1 -DWITH_PRIMME=1 -DDOWNLOAD_PRIMME=1 -DWITH_GF_OPT_KERNEL=1 -DUSE_OPENMP=1"
+export CC=mpicc
+export CXX=mpicxx
+
+# Downloading and installing pyqcm
+
+git clone https://dsenech@bitbucket.org/dsenechQCM/qcm_wed.git
+cd qcm_wed
+python3 -m pip install .
+
+=)

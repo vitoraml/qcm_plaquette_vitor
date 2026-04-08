@@ -1,0 +1,536 @@
+Number of OpenMP threads = 40
+global parameter max_iter_lanczos set to 4000
+global parameter Ground_state_method set to P
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  2
+----------------------------------------------------------------------------------------------------
+Optimization terminated successfully.
+         Current function value: 0.089013
+         Iterations: 135394
+         Function evaluations: 161215
+GS sector :  ['R0:S0:1']
+135394 minimization steps, time(MIN)/time(ED)=0.349, distance = 0.08901, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.29877	eb2_1     = -0.2811	eb3_1     = -0.21476	eb4_1     = -0.8055	eb5_1     =  0.2147	
+eb6_1     =  0.7831	eb7_1     =  0.20935	eb8_1     =  0.80536	sbl1_1    =  0.22905	sbl2_1    =  0.00021831	
+sbl3_1    =  0.13745	sbl4_1    = -0.37563	sbl5_1    = -0.18029	sbl6_1    = -3.3797e-05	sbl7_1    =  0.2044	
+sbl8_1    =  0.054855	sbr1_1    =  0.22905	sbr2_1    =  0.00021903	sbr3_1    = -0.13746	sbr4_1    =  0.37563	
+sbr5_1    = -0.18029	sbr6_1    = -1.4643e-06	sbr7_1    = -0.20441	sbr8_1    =  0.054851	tbl1_1    = -0.00021282	
+tbl2_1    =  0.19904	tbl3_1    = -0.1803	tbl4_1    = -0.054833	tbl5_1    =  0.13743	tbl6_1    = -0.49948	
+tbl7_1    =  7.7905e-06	tbl8_1    =  0.37546	tbr1_1    = -0.00020482	tbr2_1    =  0.19905	tbr3_1    =  0.18029	
+tbr4_1    =  0.05483	tbr5_1    =  0.13742	tbr6_1    =  0.49925	tbr7_1    = -8.5169e-06	tbr8_1    =  0.37576	
+
+
+Broyden iteration 1
+|delta x| = 0.565396
+Optimization terminated successfully.
+         Current function value: 0.096705
+         Iterations: 272909
+         Function evaluations: 318703
+GS sector :  ['R0:S0:1']
+272909 minimization steps, time(MIN)/time(ED)=0.427, distance = 0.09671, delta_dist = 8.64%
+updated bath parameters:
+eb1_1     = -0.29551	eb2_1     = -0.28212	eb3_1     = -0.21478	eb4_1     = -0.77898	eb5_1     =  0.21485	
+eb6_1     =  0.76318	eb7_1     =  0.21614	eb8_1     =  0.77908	sbl1_1    =  0.227	sbl2_1    =  2.2984e-05	
+sbl3_1    =  0.13465	sbl4_1    = -0.37312	sbl5_1    = -0.179	sbl6_1    =  8.0219e-06	sbl7_1    =  0.203	
+sbl8_1    =  0.056431	sbr1_1    =  0.227	sbr2_1    =  2.0467e-05	sbr3_1    = -0.13465	sbr4_1    =  0.37312	
+sbr5_1    = -0.17882	sbr6_1    = -2.2983e-05	sbr7_1    = -0.20317	sbr8_1    =  0.05643	tbl1_1    = -9.5264e-06	
+tbl2_1    =  0.19942	tbl3_1    = -0.1789	tbl4_1    = -0.056437	tbl5_1    =  0.13467	tbl6_1    = -0.49685	
+tbl7_1    =  7.1709e-05	tbl8_1    =  0.37306	tbr1_1    = -4.8361e-06	tbr2_1    =  0.19943	tbr3_1    =  0.17889	
+tbr4_1    =  0.056436	tbr5_1    =  0.13467	tbr6_1    =  0.49674	tbr7_1    =  5.0853e-05	tbr8_1    =  0.3732	
+
+
+Broyden iteration 2
+|delta x| = 0.0473363
+Optimization terminated successfully.
+         Current function value: 0.095658
+         Iterations: 165237
+         Function evaluations: 200020
+GS sector :  ['R0:S0:1']
+165237 minimization steps, time(MIN)/time(ED)=0.268, distance = 0.09566, delta_dist = 1.08%
+updated bath parameters:
+eb1_1     = -0.29228	eb2_1     = -0.28209	eb3_1     = -0.21636	eb4_1     = -0.77871	eb5_1     =  0.21632	
+eb6_1     =  0.76729	eb7_1     =  0.22008	eb8_1     =  0.77866	sbl1_1    =  0.22597	sbl2_1    = -0.00023426	
+sbl3_1    =  0.13393	sbl4_1    = -0.37232	sbl5_1    = -0.18017	sbl6_1    = -1.0849e-05	sbl7_1    =  0.20473	
+sbl8_1    =  0.057293	sbr1_1    =  0.22597	sbr2_1    = -0.00023442	sbr3_1    = -0.13393	sbr4_1    =  0.37232	
+sbr5_1    = -0.18016	sbr6_1    =  8.2292e-06	sbr7_1    = -0.20474	sbr8_1    =  0.057293	tbl1_1    =  0.00019771	
+tbl2_1    =  0.20016	tbl3_1    = -0.18018	tbl4_1    = -0.05729	tbl5_1    =  0.13392	tbl6_1    = -0.4963	
+tbl7_1    =  9.8499e-07	tbl8_1    =  0.37231	tbr1_1    =  0.000199	tbr2_1    =  0.20016	tbr3_1    =  0.18018	
+tbr4_1    =  0.057289	tbr5_1    =  0.13392	tbr6_1    =  0.49628	tbr7_1    =  6.3762e-06	tbr8_1    =  0.37233	
+
+
+Broyden iteration 3
+|delta x| = 0.00857937
+differences in self-energy : 0.0276	0.00942	
+differences in D : 0.0115	0.00416	
+Optimization terminated successfully.
+         Current function value: 0.096212
+         Iterations: 107325
+         Function evaluations: 135043
+GS sector :  ['R0:S0:1']
+107325 minimization steps, time(MIN)/time(ED)=0.174, distance = 0.09621, delta_dist = 0.58%
+updated bath parameters:
+eb1_1     = -0.29232	eb2_1     = -0.28161	eb3_1     = -0.21478	eb4_1     = -0.77707	eb5_1     =  0.21481	
+eb6_1     =  0.76591	eb7_1     =  0.21749	eb8_1     =  0.77711	sbl1_1    =  0.22609	sbl2_1    =  6.6911e-05	
+sbl3_1    =  0.13373	sbl4_1    = -0.37237	sbl5_1    = -0.17999	sbl6_1    =  4.0864e-06	sbl7_1    =  0.20458	
+sbl8_1    =  0.057101	sbr1_1    =  0.22609	sbr2_1    =  6.6807e-05	sbr3_1    = -0.13373	sbr4_1    =  0.37237	
+sbr5_1    = -0.17997	sbr6_1    = -6.385e-06	sbr7_1    = -0.20459	sbr8_1    =  0.057101	tbl1_1    = -5.4554e-05	
+tbl2_1    =  0.20008	tbl3_1    = -0.17997	tbl4_1    = -0.057104	tbl5_1    =  0.13374	tbl6_1    = -0.4962	
+tbl7_1    =  7.5883e-06	tbl8_1    =  0.37236	tbr1_1    = -5.4129e-05	tbr2_1    =  0.20008	tbr3_1    =  0.17997	
+tbr4_1    =  0.057104	tbr5_1    =  0.13374	tbr6_1    =  0.49619	tbr7_1    =  4.3996e-06	tbr8_1    =  0.37238	
+
+
+Broyden iteration 4
+|delta x| = 0.00319123
+differences in self-energy : 0.00793	0.00269	
+differences in D : 0.00422	6.19e-05	
+Optimization terminated successfully.
+         Current function value: 0.096680
+         Iterations: 90283
+         Function evaluations: 113019
+GS sector :  ['R0:S0:1']
+90283 minimization steps, time(MIN)/time(ED)=0.15, distance = 0.09668, delta_dist = 0.487%
+updated bath parameters:
+eb1_1     = -0.29267	eb2_1     = -0.28131	eb3_1     = -0.21409	eb4_1     = -0.77632	eb5_1     =  0.21409	
+eb6_1     =  0.76502	eb7_1     =  0.21662	eb8_1     =  0.77631	sbl1_1    =  0.22621	sbl2_1    = -1.4901e-05	
+sbl3_1    =  0.13357	sbl4_1    = -0.37252	sbl5_1    = -0.17969	sbl6_1    = -2.0004e-06	sbl7_1    =  0.20427	
+sbl8_1    =  0.05698	sbr1_1    =  0.22621	sbr2_1    = -1.4924e-05	sbr3_1    = -0.13357	sbr4_1    =  0.37252	
+sbr5_1    = -0.17968	sbr6_1    =  4.8042e-08	sbr7_1    = -0.20428	sbr8_1    =  0.05698	tbl1_1    =  1.2158e-05	
+tbl2_1    =  0.19991	tbl3_1    = -0.17969	tbl4_1    = -0.05698	tbl5_1    =  0.13357	tbl6_1    = -0.49626	
+tbl7_1    =  3.0482e-06	tbl8_1    =  0.37251	tbr1_1    =  1.2307e-05	tbr2_1    =  0.19991	tbr3_1    =  0.17969	
+tbr4_1    =  0.05698	tbr5_1    =  0.13357	tbr6_1    =  0.49625	tbr7_1    =  3.7839e-06	tbr8_1    =  0.37252	
+
+
+Broyden iteration 5
+|delta x| = 0.00520909
+differences in self-energy : 0.00396	0.00157	
+differences in D : 6.13e-05	5.77e-07	
+Optimization terminated successfully.
+         Current function value: 0.096754
+         Iterations: 111868
+         Function evaluations: 140590
+GS sector :  ['R0:S0:1']
+111868 minimization steps, time(MIN)/time(ED)=0.184, distance = 0.09675, delta_dist = 0.0764%
+updated bath parameters:
+eb1_1     = -0.29257	eb2_1     = -0.28129	eb3_1     = -0.21426	eb4_1     = -0.77634	eb5_1     =  0.2143	
+eb6_1     =  0.76519	eb7_1     =  0.21726	eb8_1     =  0.77639	sbl1_1    =  0.22614	sbl2_1    =  0.00013327	
+sbl3_1    =  0.13349	sbl4_1    = -0.37248	sbl5_1    = -0.17964	sbl6_1    =  8.1674e-06	sbl7_1    =  0.20422	
+sbl8_1    =  0.057042	sbr1_1    =  0.22614	sbr2_1    =  0.00013327	sbr3_1    = -0.13349	sbr4_1    =  0.37248	
+sbr5_1    = -0.17964	sbr6_1    = -8.1087e-06	sbr7_1    = -0.20422	sbr8_1    =  0.057042	tbl1_1    = -0.00011017	
+tbl2_1    =  0.19987	tbl3_1    = -0.17963	tbl4_1    = -0.057045	tbl5_1    =  0.1335	tbl6_1    = -0.49625	
+tbl7_1    =  2.38e-06	tbl8_1    =  0.37249	tbr1_1    = -0.00011016	tbr2_1    =  0.19987	tbr3_1    =  0.17963	
+tbr4_1    =  0.057045	tbr5_1    =  0.1335	tbr6_1    =  0.49625	tbr7_1    = -2.3462e-06	tbr8_1    =  0.37249	
+
+
+Broyden iteration 6
+|delta x| = 0.00215126
+------------------------- converged variational parameters (5 iterations) -------------------------
+eb1_1     = -0.29263	eb2_1     = -0.28127	eb3_1     = -0.21412	eb4_1     = -0.77624	eb5_1     =  0.21414	
+eb6_1     =  0.76504	eb7_1     =  0.2169	eb8_1     =  0.77627	sbl1_1    =  0.22618	sbl2_1    =  7.4385e-05	
+sbl3_1    =  0.1335	sbl4_1    = -0.37251	sbl5_1    = -0.17964	sbl6_1    =  3.9579e-06	sbl7_1    =  0.20422	
+sbl8_1    =  0.057007	sbr1_1    =  0.22618	sbr2_1    =  7.4394e-05	sbr3_1    = -0.1335	sbr4_1    =  0.37251	
+sbr5_1    = -0.17964	sbr6_1    = -4.641e-06	sbr7_1    = -0.20423	sbr8_1    =  0.057007	tbl1_1    = -6.1714e-05	
+tbl2_1    =  0.19988	tbl3_1    = -0.17963	tbl4_1    = -0.057008	tbl5_1    =  0.13351	tbl6_1    = -0.49625	
+tbl7_1    =  2.2918e-06	tbl8_1    =  0.3725	tbr1_1    = -6.1699e-05	tbr2_1    =  0.19988	tbr3_1    =  0.17963	
+tbr4_1    =  0.057008	tbr5_1    =  0.13351	tbr6_1    =  0.49625	tbr7_1    = -9.5171e-08	tbr8_1    =  0.37251	
+
+<D> = -0.116299129
+<mu> = 0.859572516
+<t> = -1.02826737
+<t1> = -0.0539442832
+*********************************** CDMFT completed successfully ***********************************
+mu = 1.4, n = 0.859573
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  2
+----------------------------------------------------------------------------------------------------
+Optimization terminated successfully.
+         Current function value: 0.081190
+         Iterations: 194592
+         Function evaluations: 232441
+GS sector :  ['R0:S0:1']
+194592 minimization steps, time(MIN)/time(ED)=0.306, distance = 0.08119, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.25644	eb2_1     = -0.29067	eb3_1     = -0.24537	eb4_1     = -0.78783	eb5_1     =  0.24535	
+eb6_1     =  0.7778	eb7_1     =  0.25646	eb8_1     =  0.78779	sbl1_1    =  0.20812	sbl2_1    =  7.7186e-06	
+sbl3_1    =  0.14109	sbl4_1    = -0.35357	sbl5_1    = -0.1904	sbl6_1    = -5.6732e-06	sbl7_1    =  0.21559	
+sbl8_1    =  0.065802	sbr1_1    =  0.20812	sbr2_1    =  7.7223e-06	sbr3_1    = -0.14109	sbr4_1    =  0.35357	
+sbr5_1    = -0.1904	sbr6_1    =  5.6653e-06	sbr7_1    = -0.21559	sbr8_1    =  0.065802	tbl1_1    = -1.2856e-05	
+tbl2_1    =  0.20767	tbl3_1    = -0.19041	tbl4_1    = -0.065799	tbl5_1    =  0.14108	tbl6_1    = -0.48151	
+tbl7_1    = -3.0748e-06	tbl8_1    =  0.35356	tbr1_1    = -1.2804e-05	tbr2_1    =  0.20767	tbr3_1    =  0.19041	
+tbr4_1    =  0.065799	tbr5_1    =  0.14108	tbr6_1    =  0.48151	tbr7_1    =  3.0742e-06	tbr8_1    =  0.35356	
+
+
+Broyden iteration 1
+|delta x| = 0.0958059
+Optimization terminated successfully.
+         Current function value: 0.079606
+         Iterations: 223273
+         Function evaluations: 264951
+GS sector :  ['R0:S0:1']
+223273 minimization steps, time(MIN)/time(ED)=0.377, distance = 0.07961, delta_dist = 1.95%
+updated bath parameters:
+eb1_1     = -0.25061	eb2_1     = -0.29181	eb3_1     = -0.24419	eb4_1     = -0.78149	eb5_1     =  0.2442	
+eb6_1     =  0.77134	eb7_1     =  0.24742	eb8_1     =  0.78151	sbl1_1    =  0.20779	sbl2_1    =  2.9088e-07	
+sbl3_1    =  0.14353	sbl4_1    = -0.35088	sbl5_1    = -0.19321	sbl6_1    =  3.403e-06	sbl7_1    =  0.21913	
+sbl8_1    =  0.066394	sbr1_1    =  0.20779	sbr2_1    =  2.9087e-07	sbr3_1    = -0.14353	sbr4_1    =  0.35088	
+sbr5_1    = -0.19321	sbr6_1    = -3.4715e-06	sbr7_1    = -0.21913	sbr8_1    =  0.066394	tbl1_1    =  2.6681e-06	
+tbl2_1    =  0.2093	tbl3_1    = -0.1932	tbl4_1    = -0.066395	tbl5_1    =  0.14353	tbl6_1    = -0.47876	
+tbl7_1    =  2.1161e-06	tbl8_1    =  0.35088	tbr1_1    =  2.7098e-06	tbr2_1    =  0.2093	tbr3_1    =  0.1932	
+tbr4_1    =  0.066395	tbr5_1    =  0.14353	tbr6_1    =  0.47876	tbr7_1    = -1.8878e-06	tbr8_1    =  0.35088	
+
+
+Broyden iteration 2
+|delta x| = 0.0196951
+Optimization terminated successfully.
+         Current function value: 0.081593
+         Iterations: 143033
+         Function evaluations: 173759
+GS sector :  ['R0:S0:1']
+143033 minimization steps, time(MIN)/time(ED)=0.236, distance = 0.08159, delta_dist = 2.5%
+updated bath parameters:
+eb1_1     = -0.25908	eb2_1     = -0.29181	eb3_1     = -0.23789	eb4_1     = -0.77476	eb5_1     =  0.23788	
+eb6_1     =  0.76074	eb7_1     =  0.23784	eb8_1     =  0.77475	sbl1_1    =  0.2111	sbl2_1    =  6.2411e-07	
+sbl3_1    =  0.14342	sbl4_1    = -0.35345	sbl5_1    = -0.18966	sbl6_1    = -2.4153e-06	sbl7_1    =  0.21677	
+sbl8_1    =  0.064434	sbr1_1    =  0.2111	sbr2_1    =  6.191e-07	sbr3_1    = -0.14342	sbr4_1    =  0.35345	
+sbr5_1    = -0.19119	sbr6_1    =  1.8397e-06	sbr7_1    = -0.21542	sbr8_1    =  0.064434	tbl1_1    = -2.367e-06	
+tbl2_1    =  0.20766	tbl3_1    = -0.19043	tbl4_1    = -0.064433	tbl5_1    =  0.14342	tbl6_1    = -0.48061	
+tbl7_1    = -0.0005101	tbl8_1    =  0.35345	tbr1_1    = -2.3699e-06	tbr2_1    =  0.20766	tbr3_1    =  0.19043	
+tbr4_1    =  0.064433	tbr5_1    =  0.14342	tbr6_1    =  0.4806	tbr7_1    = -0.00050749	tbr8_1    =  0.35345	
+
+
+Broyden iteration 3
+|delta x| = 0.0240498
+differences in self-energy : 0.0329	0.0264	
+differences in D : 0.00754	0.00427	
+Optimization terminated successfully.
+         Current function value: 0.080964
+         Iterations: 164745
+         Function evaluations: 196203
+GS sector :  ['R0:S0:1']
+164745 minimization steps, time(MIN)/time(ED)=0.271, distance = 0.08096, delta_dist = 0.771%
+updated bath parameters:
+eb1_1     = -0.25907	eb2_1     = -0.29214	eb3_1     = -0.24091	eb4_1     = -0.77879	eb5_1     =  0.24092	
+eb6_1     =  0.76481	eb7_1     =  0.2437	eb8_1     =  0.77881	sbl1_1    =  0.2105	sbl2_1    = -5.5468e-06	
+sbl3_1    =  0.14334	sbl4_1    = -0.35337	sbl5_1    = -0.19053	sbl6_1    =  1.255e-05	sbl7_1    =  0.21629	
+sbl8_1    =  0.064931	sbr1_1    =  0.21052	sbr2_1    =  1.4696e-06	sbr3_1    = -0.14331	sbr4_1    =  0.35337	
+sbr5_1    = -0.19077	sbr6_1    =  7.4472e-06	sbr7_1    = -0.21607	sbr8_1    =  0.064931	tbl1_1    =  1.684e-05	
+tbl2_1    =  0.20781	tbl3_1    = -0.19064	tbl4_1    = -0.064931	tbl5_1    =  0.14333	tbl6_1    = -0.48077	
+tbl7_1    = -7.9713e-05	tbl8_1    =  0.35345	tbr1_1    = -8.4929e-06	tbr2_1    =  0.2078	tbr3_1    =  0.19065	
+tbr4_1    =  0.064932	tbr5_1    =  0.14333	tbr6_1    =  0.48088	tbr7_1    = -8.2739e-05	tbr8_1    =  0.35329	
+
+
+Broyden iteration 4
+|delta x| = 0.00692144
+differences in self-energy : 0.0208	0.00833	
+differences in D : 0.00319	0.00108	
+Optimization terminated successfully.
+         Current function value: 0.080916
+         Iterations: 137140
+         Function evaluations: 167779
+GS sector :  ['R0:S0:1']
+137140 minimization steps, time(MIN)/time(ED)=0.229, distance = 0.08092, delta_dist = 0.0597%
+updated bath parameters:
+eb1_1     = -0.25907	eb2_1     = -0.29216	eb3_1     = -0.24052	eb4_1     = -0.77843	eb5_1     =  0.24052	
+eb6_1     =  0.76435	eb7_1     =  0.24264	eb8_1     =  0.77842	sbl1_1    =  0.21063	sbl2_1    = -1.8588e-08	
+sbl3_1    =  0.14343	sbl4_1    = -0.3534	sbl5_1    = -0.19065	sbl6_1    =  2.9053e-06	sbl7_1    =  0.21631	
+sbl8_1    =  0.064826	sbr1_1    =  0.21064	sbr2_1    =  2.2187e-06	sbr3_1    = -0.14342	sbr4_1    =  0.3534	
+sbr5_1    = -0.19076	sbr6_1    =  4.5478e-06	sbr7_1    = -0.21622	sbr8_1    =  0.064826	tbl1_1    =  3.491e-06	
+tbl2_1    =  0.20783	tbl3_1    = -0.1907	tbl4_1    = -0.064826	tbl5_1    =  0.14343	tbl6_1    = -0.4808	
+tbl7_1    = -3.4335e-05	tbl8_1    =  0.35343	tbr1_1    = -7.0871e-06	tbr2_1    =  0.20782	tbr3_1    =  0.19071	
+tbr4_1    =  0.064826	tbr5_1    =  0.14343	tbr6_1    =  0.48084	tbr7_1    = -3.3388e-05	tbr8_1    =  0.35338	
+
+
+Broyden iteration 5
+|delta x| = 0.00162389
+------------------------- converged variational parameters (4 iterations) -------------------------
+eb1_1     = -0.25878	eb2_1     = -0.29216	eb3_1     = -0.24069	eb4_1     = -0.77863	eb5_1     =  0.24069	
+eb6_1     =  0.76467	eb7_1     =  0.24283	eb8_1     =  0.77862	sbl1_1    =  0.21053	sbl2_1    =  9.8677e-07	
+sbl3_1    =  0.14345	sbl4_1    = -0.35332	sbl5_1    = -0.1908	sbl6_1    =  1.3647e-06	sbl7_1    =  0.21638	
+sbl8_1    =  0.064878	sbr1_1    =  0.21054	sbr2_1    =  2.3642e-06	sbr3_1    = -0.14344	sbr4_1    =  0.35332	
+sbr5_1    = -0.19082	sbr6_1    =  3.8597e-06	sbr7_1    = -0.21637	sbr8_1    =  0.064878	tbl1_1    =  1.239e-06	
+tbl2_1    =  0.20789	tbl3_1    = -0.19081	tbl4_1    = -0.064877	tbl5_1    =  0.14344	tbl6_1    = -0.48075	
+tbl7_1    = -5.5306e-06	tbl8_1    =  0.35334	tbr1_1    = -6.7003e-06	tbr2_1    =  0.20789	tbr3_1    =  0.19081	
+tbr4_1    =  0.064878	tbr5_1    =  0.14344	tbr6_1    =  0.48078	tbr7_1    = -4.0853e-06	tbr8_1    =  0.3533	
+
+<D> = -0.115064652
+<mu> = 0.883117198
+<t> = -1.00455077
+<t1> = -0.0713092909
+*********************************** CDMFT completed successfully ***********************************
+mu = 1.6, n = 0.883117
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  2
+----------------------------------------------------------------------------------------------------
+Optimization terminated successfully.
+         Current function value: 0.095079
+         Iterations: 191122
+         Function evaluations: 227131
+GS sector :  ['R0:S0:1']
+191122 minimization steps, time(MIN)/time(ED)=0.313, distance = 0.09508, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.29168	eb2_1     = -0.28373	eb3_1     = -0.21351	eb4_1     = -0.76716	eb5_1     =  0.21351	
+eb6_1     =  0.75334	eb7_1     =  0.20923	eb8_1     =  0.76716	sbl1_1    =  0.22576	sbl2_1    =  6.1374e-06	
+sbl3_1    =  0.13614	sbl4_1    = -0.37001	sbl5_1    = -0.18148	sbl6_1    =  1.2521e-06	sbl7_1    =  0.20657	
+sbl8_1    =  0.057059	sbr1_1    =  0.22576	sbr2_1    =  6.3075e-06	sbr3_1    = -0.13614	sbr4_1    =  0.37001	
+sbr5_1    = -0.18147	sbr6_1    =  3.2845e-07	sbr7_1    = -0.20658	sbr8_1    =  0.057059	tbl1_1    = -4.8211e-06	
+tbl2_1    =  0.20142	tbl3_1    = -0.18147	tbl4_1    = -0.057059	tbl5_1    =  0.13614	tbl6_1    = -0.49365	
+tbl7_1    =  2.3971e-06	tbl8_1    =  0.37001	tbr1_1    = -5.4793e-06	tbr2_1    =  0.20142	tbr3_1    =  0.18147	
+tbr4_1    =  0.057059	tbr5_1    =  0.13614	tbr6_1    =  0.49366	tbr7_1    =  2.0315e-06	tbr8_1    =  0.37	
+
+
+Broyden iteration 1
+|delta x| = 0.0838982
+Optimization terminated successfully.
+         Current function value: 0.096043
+         Iterations: 225885
+         Function evaluations: 266561
+GS sector :  ['R0:S0:1']
+225885 minimization steps, time(MIN)/time(ED)=0.354, distance = 0.09604, delta_dist = 1.01%
+updated bath parameters:
+eb1_1     = -0.29199	eb2_1     = -0.28176	eb3_1     = -0.21494	eb4_1     = -0.77444	eb5_1     =  0.21494	
+eb6_1     =  0.76061	eb7_1     =  0.21674	eb8_1     =  0.77444	sbl1_1    =  0.22537	sbl2_1    = -5.0454e-06	
+sbl3_1    =  0.13439	sbl4_1    = -0.37146	sbl5_1    = -0.17939	sbl6_1    = -6.9812e-08	sbl7_1    =  0.20375	
+sbl8_1    =  0.056951	sbr1_1    =  0.22537	sbr2_1    = -5.0011e-06	sbr3_1    = -0.13439	sbr4_1    =  0.37146	
+sbr5_1    = -0.17939	sbr6_1    =  4.9467e-07	sbr7_1    = -0.20375	sbr8_1    =  0.056951	tbl1_1    =  4.2797e-06	
+tbl2_1    =  0.19983	tbl3_1    = -0.17939	tbl4_1    = -0.056951	tbl5_1    =  0.13439	tbl6_1    = -0.49527	
+tbl7_1    = -1.5626e-06	tbl8_1    =  0.37147	tbr1_1    =  4.1027e-06	tbr2_1    =  0.19983	tbr3_1    =  0.17939	
+tbr4_1    =  0.056951	tbr5_1    =  0.13439	tbr6_1    =  0.49527	tbr7_1    = -1.3858e-06	tbr8_1    =  0.37146	
+
+
+Broyden iteration 2
+|delta x| = 0.0164765
+Optimization terminated successfully.
+         Current function value: 0.093474
+         Iterations: 126112
+         Function evaluations: 161440
+GS sector :  ['R0:S0:1']
+126112 minimization steps, time(MIN)/time(ED)=0.215, distance = 0.09347, delta_dist = 2.67%
+updated bath parameters:
+eb1_1     = -0.28715	eb2_1     = -0.28357	eb3_1     = -0.21987	eb4_1     = -0.77777	eb5_1     =  0.21987	
+eb6_1     =  0.76665	eb7_1     =  0.22416	eb8_1     =  0.77777	sbl1_1    =  0.22371	sbl2_1    =  7.6818e-06	
+sbl3_1    =  0.13515	sbl4_1    = -0.3695	sbl5_1    = -0.18157	sbl6_1    =  2.159e-07	sbl7_1    =  0.2063	
+sbl8_1    =  0.058428	sbr1_1    =  0.22371	sbr2_1    =  7.6842e-06	sbr3_1    = -0.13515	sbr4_1    =  0.3695	
+sbr5_1    = -0.18157	sbr6_1    = -1.1475e-07	sbr7_1    = -0.2063	sbr8_1    =  0.058428	tbl1_1    = -6.7165e-06	
+tbl2_1    =  0.20118	tbl3_1    = -0.18157	tbl4_1    = -0.058429	tbl5_1    =  0.13515	tbl6_1    = -0.49396	
+tbl7_1    = -9.3424e-08	tbl8_1    =  0.3695	tbr1_1    = -6.7653e-06	tbr2_1    =  0.20118	tbr3_1    =  0.18157	
+tbr4_1    =  0.058429	tbr5_1    =  0.13515	tbr6_1    =  0.49396	tbr7_1    = -1.6399e-07	tbr8_1    =  0.3695	
+
+
+Broyden iteration 3
+|delta x| = 0.0194326
+differences in self-energy : 0.0263	0.0163	
+differences in D : 0.00518	0.00261	
+Optimization terminated successfully.
+         Current function value: 0.093916
+         Iterations: 79128
+         Function evaluations: 108896
+GS sector :  ['R0:S0:1']
+79128 minimization steps, time(MIN)/time(ED)=0.14, distance = 0.09392, delta_dist = 0.473%
+updated bath parameters:
+eb1_1     = -0.28804	eb2_1     = -0.28314	eb3_1     = -0.21767	eb4_1     = -0.77566	eb5_1     =  0.21766	
+eb6_1     =  0.76407	eb7_1     =  0.21961	eb8_1     =  0.77566	sbl1_1    =  0.2242	sbl2_1    = -7.8165e-06	
+sbl3_1    =  0.13518	sbl4_1    = -0.36981	sbl5_1    = -0.1814	sbl6_1    = -3.388e-07	sbl7_1    =  0.20616	
+sbl8_1    =  0.057986	sbr1_1    =  0.2242	sbr2_1    = -7.8215e-06	sbr3_1    = -0.13518	sbr4_1    =  0.36981	
+sbr5_1    = -0.1814	sbr6_1    =  3.162e-07	sbr7_1    = -0.20616	sbr8_1    =  0.057986	tbl1_1    =  6.7238e-06	
+tbl2_1    =  0.20113	tbl3_1    = -0.1814	tbl4_1    = -0.057986	tbl5_1    =  0.13518	tbl6_1    = -0.49404	
+tbl7_1    =  2.0006e-07	tbl8_1    =  0.36981	tbr1_1    =  6.7338e-06	tbr2_1    =  0.20113	tbr3_1    =  0.1814	
+tbr4_1    =  0.057986	tbr5_1    =  0.13518	tbr6_1    =  0.49404	tbr7_1    =  4.8631e-07	tbr8_1    =  0.36981	
+
+
+Broyden iteration 4
+|delta x| = 0.00673057
+differences in self-energy : 0.0119	0.00659	
+differences in D : 0.0016	0.00101	
+Optimization terminated successfully.
+         Current function value: 0.093873
+         Iterations: 36855
+         Function evaluations: 53972
+GS sector :  ['R0:S0:1']
+36855 minimization steps, time(MIN)/time(ED)=0.069, distance = 0.09387, delta_dist = 0.0464%
+updated bath parameters:
+eb1_1     = -0.28774	eb2_1     = -0.28324	eb3_1     = -0.21825	eb4_1     = -0.77615	eb5_1     =  0.21825	
+eb6_1     =  0.76468	eb7_1     =  0.22092	eb8_1     =  0.77615	sbl1_1    =  0.22404	sbl2_1    =  1.076e-05	
+sbl3_1    =  0.13515	sbl4_1    = -0.36969	sbl5_1    = -0.18144	sbl6_1    = -2.532e-06	sbl7_1    =  0.20612	
+sbl8_1    =  0.058128	sbr1_1    =  0.22404	sbr2_1    =  1.0719e-05	sbr3_1    = -0.13515	sbr4_1    =  0.36969	
+sbr5_1    = -0.18136	sbr6_1    = -2.7099e-06	sbr7_1    = -0.20619	sbr8_1    =  0.058128	tbl1_1    = -9.6207e-06	
+tbl2_1    =  0.20112	tbl3_1    = -0.1814	tbl4_1    = -0.058128	tbl5_1    =  0.13515	tbl6_1    = -0.494	
+tbl7_1    =  2.6777e-05	tbl8_1    =  0.36967	tbr1_1    = -9.626e-06	tbr2_1    =  0.20112	tbr3_1    =  0.1814	
+tbr4_1    =  0.058128	tbr5_1    =  0.13515	tbr6_1    =  0.49397	tbr7_1    =  2.6694e-05	tbr8_1    =  0.36972	
+
+
+Broyden iteration 5
+|delta x| = 0.00113488
+------------------------- converged variational parameters (4 iterations) -------------------------
+eb1_1     = -0.28782	eb2_1     = -0.28321	eb3_1     = -0.21822	eb4_1     = -0.77613	eb5_1     =  0.21822	
+eb6_1     =  0.76461	eb7_1     =  0.22093	eb8_1     =  0.77613	sbl1_1    =  0.22406	sbl2_1    =  1.3262e-05	
+sbl3_1    =  0.13513	sbl4_1    = -0.36972	sbl5_1    = -0.1814	sbl6_1    = -2.8595e-06	sbl7_1    =  0.20605	
+sbl8_1    =  0.058113	sbr1_1    =  0.22406	sbr2_1    =  1.3217e-05	sbr3_1    = -0.13513	sbr4_1    =  0.36972	
+sbr5_1    = -0.18131	sbr6_1    = -3.1441e-06	sbr7_1    = -0.20614	sbr8_1    =  0.058114	tbl1_1    = -1.1825e-05	
+tbl2_1    =  0.20109	tbl3_1    = -0.18135	tbl4_1    = -0.058114	tbl5_1    =  0.13513	tbl6_1    = -0.49403	
+tbl7_1    =  3.0679e-05	tbl8_1    =  0.36969	tbr1_1    = -1.1836e-05	tbr2_1    =  0.20109	tbr3_1    =  0.18135	
+tbr4_1    =  0.058114	tbr5_1    =  0.13513	tbr6_1    =  0.49399	tbr7_1    =  3.0546e-05	tbr8_1    =  0.36975	
+
+<D> = -0.116382755
+<mu> = 0.863260655
+<t> = -1.02484819
+<t1> = -0.0568941185
+*********************************** CDMFT completed successfully ***********************************
+mu = 1.43079, n = 0.863261
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  2
+----------------------------------------------------------------------------------------------------
+Optimization terminated successfully.
+         Current function value: 0.093963
+         Iterations: 18773
+         Function evaluations: 28031
+GS sector :  ['R0:S0:1']
+18773 minimization steps, time(MIN)/time(ED)=0.0358, distance = 0.09396, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.28787	eb2_1     = -0.28319	eb3_1     = -0.21815	eb4_1     = -0.77609	eb5_1     =  0.21815	
+eb6_1     =  0.7646	eb7_1     =  0.22086	eb8_1     =  0.77609	sbl1_1    =  0.22409	sbl2_1    = -3.0806e-05	
+sbl3_1    =  0.13511	sbl4_1    = -0.36976	sbl5_1    = -0.18132	sbl6_1    =  2.4017e-06	sbl7_1    =  0.2061	
+sbl8_1    =  0.058103	sbr1_1    =  0.22409	sbr2_1    = -3.076e-05	sbr3_1    = -0.13511	sbr4_1    =  0.36976	
+sbr5_1    = -0.18136	sbr6_1    =  2.4834e-06	sbr7_1    = -0.20607	sbr8_1    =  0.058103	tbl1_1    =  2.7634e-05	
+tbl2_1    =  0.20108	tbl3_1    = -0.18134	tbl4_1    = -0.058103	tbl5_1    =  0.13511	tbl6_1    = -0.49402	
+tbl7_1    = -1.2223e-05	tbl8_1    =  0.36978	tbr1_1    =  2.7954e-05	tbr2_1    =  0.20108	tbr3_1    =  0.18134	
+tbr4_1    =  0.058103	tbr5_1    =  0.13511	tbr6_1    =  0.49405	tbr7_1    = -1.2221e-05	tbr8_1    =  0.36974	
+
+
+Broyden iteration 1
+|delta x| = 0.000379059
+Optimization terminated successfully.
+         Current function value: 0.093944
+         Iterations: 28739
+         Function evaluations: 44173
+GS sector :  ['R0:S0:1']
+28739 minimization steps, time(MIN)/time(ED)=0.0539, distance = 0.09394, delta_dist = 0.0199%
+updated bath parameters:
+eb1_1     = -0.28783	eb2_1     = -0.2832	eb3_1     = -0.2182	eb4_1     = -0.77615	eb5_1     =  0.2182	
+eb6_1     =  0.76469	eb7_1     =  0.22096	eb8_1     =  0.77615	sbl1_1    =  0.22407	sbl2_1    = -6.1623e-06	
+sbl3_1    =  0.13511	sbl4_1    = -0.36974	sbl5_1    = -0.18135	sbl6_1    = -3.1614e-07	sbl7_1    =  0.20611	
+sbl8_1    =  0.058117	sbr1_1    =  0.22407	sbr2_1    = -6.1454e-06	sbr3_1    = -0.13511	sbr4_1    =  0.36974	
+sbr5_1    = -0.18136	sbr6_1    = -3.5095e-07	sbr7_1    = -0.20609	sbr8_1    =  0.058117	tbl1_1    =  5.647e-06	
+tbl2_1    =  0.20109	tbl3_1    = -0.18136	tbl4_1    = -0.058117	tbl5_1    =  0.13511	tbl6_1    = -0.49403	
+tbl7_1    = -5.1774e-06	tbl8_1    =  0.36974	tbr1_1    =  5.5524e-06	tbr2_1    =  0.20109	tbr3_1    =  0.18136	
+tbr4_1    =  0.058117	tbr5_1    =  0.13511	tbr6_1    =  0.49403	tbr7_1    = -5.173e-06	tbr8_1    =  0.36975	
+
+
+Broyden iteration 2
+|delta x| = 0.000143185
+------------------------- converged variational parameters (1 iterations) -------------------------
+eb1_1     = -0.28784	eb2_1     = -0.2832	eb3_1     = -0.21819	eb4_1     = -0.77613	eb5_1     =  0.21819	
+eb6_1     =  0.76467	eb7_1     =  0.22093	eb8_1     =  0.77613	sbl1_1    =  0.22408	sbl2_1    = -1.316e-05	
+sbl3_1    =  0.13511	sbl4_1    = -0.36975	sbl5_1    = -0.18134	sbl6_1    =  4.5557e-07	sbl7_1    =  0.20611	
+sbl8_1    =  0.058113	sbr1_1    =  0.22408	sbr2_1    = -1.3135e-05	sbr3_1    = -0.13511	sbr4_1    =  0.36975	
+sbr5_1    = -0.18136	sbr6_1    =  4.5382e-07	sbr7_1    = -0.20609	sbr8_1    =  0.058113	tbl1_1    =  1.189e-05	
+tbl2_1    =  0.20108	tbl3_1    = -0.18135	tbl4_1    = -0.058113	tbl5_1    =  0.13511	tbl6_1    = -0.49403	
+tbl7_1    = -7.178e-06	tbl8_1    =  0.36975	tbr1_1    =  1.1913e-05	tbr2_1    =  0.20108	tbr3_1    =  0.18135	
+tbr4_1    =  0.058113	tbr5_1    =  0.13511	tbr6_1    =  0.49403	tbr7_1    = -7.1742e-06	tbr8_1    =  0.36974	
+
+<D> = -0.11634783
+<mu> = 0.863201761
+<t> = -1.02486967
+<t1> = -0.0568392272
+*********************************** CDMFT completed successfully ***********************************
+mu = 1.43025, n = 0.863202
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  2
+----------------------------------------------------------------------------------------------------
+Optimization terminated successfully.
+         Current function value: 0.093938
+         Iterations: 14087
+         Function evaluations: 22910
+GS sector :  ['R0:S0:1']
+14087 minimization steps, time(MIN)/time(ED)=0.0297, distance = 0.09394, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.28782	eb2_1     = -0.2832	eb3_1     = -0.2182	eb4_1     = -0.77615	eb5_1     =  0.2182	
+eb6_1     =  0.7647	eb7_1     =  0.22096	eb8_1     =  0.77615	sbl1_1    =  0.22407	sbl2_1    = -1.4388e-05	
+sbl3_1    =  0.13511	sbl4_1    = -0.36974	sbl5_1    = -0.18136	sbl6_1    =  5.4507e-07	sbl7_1    =  0.20612	
+sbl8_1    =  0.05812	sbr1_1    =  0.22407	sbr2_1    = -1.4408e-05	sbr3_1    = -0.13511	sbr4_1    =  0.36974	
+sbr5_1    = -0.18137	sbr6_1    =  5.8496e-07	sbr7_1    = -0.20611	sbr8_1    =  0.05812	tbl1_1    =  1.3004e-05	
+tbl2_1    =  0.20109	tbl3_1    = -0.18136	tbl4_1    = -0.05812	tbl5_1    =  0.13511	tbl6_1    = -0.49402	
+tbl7_1    = -4.0796e-06	tbl8_1    =  0.36975	tbr1_1    =  1.3004e-05	tbr2_1    =  0.20109	tbr3_1    =  0.18136	
+tbr4_1    =  0.05812	tbr5_1    =  0.13511	tbr6_1    =  0.49403	tbr7_1    = -4.0684e-06	tbr8_1    =  0.36974	
+
+
+Broyden iteration 1
+|delta x| = 3.90953e-05
+Optimization terminated successfully.
+         Current function value: 0.093945
+         Iterations: 14916
+         Function evaluations: 24183
+GS sector :  ['R0:S0:1']
+14916 minimization steps, time(MIN)/time(ED)=0.0311, distance = 0.09395, delta_dist = 0.00735%
+updated bath parameters:
+eb1_1     = -0.28782	eb2_1     = -0.28319	eb3_1     = -0.21819	eb4_1     = -0.77613	eb5_1     =  0.21819	
+eb6_1     =  0.76469	eb7_1     =  0.22093	eb8_1     =  0.77613	sbl1_1    =  0.22408	sbl2_1    = -1.4738e-05	
+sbl3_1    =  0.13511	sbl4_1    = -0.36974	sbl5_1    = -0.18135	sbl6_1    =  4.6439e-07	sbl7_1    =  0.20611	
+sbl8_1    =  0.058116	sbr1_1    =  0.22408	sbr2_1    = -1.476e-05	sbr3_1    = -0.13511	sbr4_1    =  0.36974	
+sbr5_1    = -0.18137	sbr6_1    =  4.4866e-07	sbr7_1    = -0.2061	sbr8_1    =  0.058116	tbl1_1    =  1.3395e-05	
+tbl2_1    =  0.20109	tbl3_1    = -0.18136	tbl4_1    = -0.058116	tbl5_1    =  0.13511	tbl6_1    = -0.49402	
+tbl7_1    = -5.4538e-06	tbl8_1    =  0.36975	tbr1_1    =  1.3321e-05	tbr2_1    =  0.20109	tbr3_1    =  0.18136	
+tbr4_1    =  0.058116	tbr5_1    =  0.13511	tbr6_1    =  0.49403	tbr7_1    = -5.4567e-06	tbr8_1    =  0.36974	
+
+
+Broyden iteration 2
+|delta x| = 3.04234e-05
+------------------------- converged variational parameters (1 iterations) -------------------------
+eb1_1     = -0.28782	eb2_1     = -0.2832	eb3_1     = -0.21819	eb4_1     = -0.77614	eb5_1     =  0.21819	
+eb6_1     =  0.76469	eb7_1     =  0.22094	eb8_1     =  0.77614	sbl1_1    =  0.22407	sbl2_1    = -1.4622e-05	
+sbl3_1    =  0.13511	sbl4_1    = -0.36974	sbl5_1    = -0.18135	sbl6_1    =  4.9116e-07	sbl7_1    =  0.20611	
+sbl8_1    =  0.058117	sbr1_1    =  0.22407	sbr2_1    = -1.4643e-05	sbr3_1    = -0.13511	sbr4_1    =  0.36974	
+sbr5_1    = -0.18137	sbr6_1    =  4.9389e-07	sbr7_1    = -0.2061	sbr8_1    =  0.058117	tbl1_1    =  1.3265e-05	
+tbl2_1    =  0.20109	tbl3_1    = -0.18136	tbl4_1    = -0.058117	tbl5_1    =  0.13511	tbl6_1    = -0.49402	
+tbl7_1    = -4.9979e-06	tbl8_1    =  0.36975	tbr1_1    =  1.3216e-05	tbr2_1    =  0.20109	tbr3_1    =  0.18136	
+tbr4_1    =  0.058117	tbr5_1    =  0.13511	tbr6_1    =  0.49403	tbr7_1    = -4.9961e-06	tbr8_1    =  0.36974	
+
+<D> = -0.116354755
+<mu> = 0.863196469
+<t> = -1.02488742
+<t1> = -0.0568393097
+*********************************** CDMFT completed successfully ***********************************
+mu = 1.4302, n = 0.863196
+converged
+<D> = -0.116354755
+<mu> = 0.863196469
+<t> = -1.02488742
+<t1> = -0.0568393097
+******************************* computing the DoS, mixing=1, 1 bands *******************************
+(-4+0.1j) [ 0.054469  0.009323]
+(-3.5+0.1j) [ 0.086177  0.01569 ]
+(-3+0.1j) [ 0.069946  0.031513]
+(-2.5+0.1j) [ 0.059582  0.032191]
+(-2+0.1j) [ 0.115214  0.052925]
+(-1.5+0.1j) [ 0.127644  0.070218]
+(-1+0.1j) [ 0.066012  0.091242]
+(-0.5+0.1j) [ 0.113382  0.115292]
+(-0+0.1j) [ 0.121978  0.121978]
+(0.5+0.1j) [ 0.115292  0.113382]
+(1+0.1j) [ 0.091247  0.066013]
+(1.5+0.1j) [ 0.070194  0.127657]
+(2+0.1j) [ 0.052908  0.115229]
+(2.5+0.1j) [ 0.032221  0.059579]
+(3+0.1j) [ 0.031495  0.069914]
+(3.5+0.1j) [ 0.015637  0.086238]
+(4+0.1j) [ 0.009355  0.054536]
+DoS totals:  [ 0.620078  0.620086]

@@ -1,0 +1,35 @@
+"""
+Project: Paramagnetic normal state
+
+Description:
+
+CDMFT-ED calculation for the paramagnetic normal state of a 2x2 plaquette cluster using the pyqcm package.
+
+Authors:
+- Vitor Assunção Moreira Lima (vitor.aml@hotmail.com)
+-
+
+Created: 2026-04-08
+Last Modified: 2026-04-08
+Version: 1.0.0
+
+License: MIT 
+
+Dependencies:
+- Python > 3.10.x
+- pyqcm >= 2.10.4
+- pandas >= ?
+
+Usage example:
+OMP_NUM_THREADS=8 python3 cdmft.py > out_cdmft
+
+Structure:
+This folder contains:
+i) cdmft.py: Input values, the main part of the CMDFT run and output generating functions;
+ii) model.py: Defines the cluster geometry and the lattice model parameters;
+iii) cluster.py: Defines the bath parametrization and creates the cluster model;
+
+The cdmft.py script uses model.py, that requires cluster.py. Since cluster.py needs to be modified for different bath constrains, in 'cluster_examples' folder one can find cluster.py examples for general C4, C2v and C2 parametrizations on the spin-up channel, with their respectives cdmft.py scripts in 'cdmft_examples'. As an example the C2v case will be solved, with the solution outputs in 'solved' folder for comparison. For a full ootput display check the 'output_full' folder inside 'solved'.
+
+For more information please go to the official documentation website https://qcm-wed.readthedocs.io/en/latest/index.html!
+"""

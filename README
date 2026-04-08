@@ -1,0 +1,32 @@
+"""
+CDMFT-ED (pyqcm) 2x2 plaquette 
+
+Description:
+
+CDMFT calculation using pyqcm library
+
+This set of scripts configures and runs CDMFT-ED calculations for a 2x2 plaquette cluster using the pyqcm package.
+Defines explicitly the bath parametrization, the lattice model and the cluster geometry, performing the self-consistent cycle.
+
+Authors:
+- Vitor Assunção Moreira Lima (vitor.aml@hotmail.com)
+-
+
+Created: 2026-04-08
+Last Modified: 2026-04-08
+Version: 1.0.0
+
+License: MIT 
+
+Dependencies:
+- Python > 3.10.x
+- pyqcm >= 2.10.4
+
+Structure:
+The package is organized in three parts:
+i) A documentation folder (doc) where some useful information will be stored;
+ii) A CDMFT run folder (plaquette) with subfolders associated to different types of calculations;
+iii) An utils folder (putils) with auxiliary scripts to plot data or filter output information;
+
+For more information please read the README files inside the desired directory or go to the official documentation website https://qcm-wed.readthedocs.io/en/latest/index.html !
+"""

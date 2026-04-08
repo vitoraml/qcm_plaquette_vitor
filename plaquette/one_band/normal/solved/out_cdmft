@@ -1,0 +1,728 @@
+Number of OpenMP threads = 12
+global parameter max_iter_lanczos set to 4000
+global parameter Ground_state_method set to P
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  4
+----------------------------------------------------------------------------------------------------
+consistency for cluster  1  : GF =  0.8706364657687294 	GS =  0.8706364656380359
+Optimization terminated successfully.
+         Current function value: 0.235090
+         Iterations: 2242
+         Function evaluations: 4347
+GS sector :  ['R0:N12:S0:1']
+4347 minimization steps, time(MIN)/time(ED)=0.00266, distance = 0.2351, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.33344	eb2_1     = -0.28303	eb3_1     = -0.28303	eb4_1     = -0.21152	eb5_1     =  0.16656	
+eb6_1     =  0.77268	eb7_1     =  0.77268	eb8_1     =  0.99962	tb1_1     =  0.21509	tb2_1     =  0.22077	
+tb3_1     =  0.22077	tb4_1     = -0.22432	tb5_1     =  0.21	tb6_1     = -0.41526	tb7_1     = -0.41526	
+tb8_1     =  0.53943	
+
+Broyden iteration 1
+|delta x| = 0.134634
+consistency for cluster  1  : GF =  0.8695428784318843 	GS =  0.869542878249892
+Optimization terminated successfully.
+         Current function value: 0.252223
+         Iterations: 1999
+         Function evaluations: 4210
+GS sector :  ['R0:N12:S0:1']
+4210 minimization steps, time(MIN)/time(ED)=0.00332, distance = 0.2522, delta_dist = 7.29%
+updated bath parameters:
+eb1_1     = -0.25595	eb2_1     = -0.24454	eb3_1     = -0.24454	eb4_1     = -0.20185	eb5_1     =  0.097859	
+eb6_1     =  0.82432	eb7_1     =  0.82432	eb8_1     =  1.0715	tb1_1     =  0.20477	tb2_1     =  0.21726	
+tb3_1     =  0.21726	tb4_1     = -0.22587	tb5_1     =  0.18357	tb6_1     = -0.41927	tb7_1     = -0.41927	
+tb8_1     =  0.54706	
+
+Broyden iteration 2
+|delta x| = 0.0826664
+consistency for cluster  1  : GF =  0.8708474742389853 	GS =  0.8708474741149216
+Optimization terminated successfully.
+         Current function value: 0.243865
+         Iterations: 1949
+         Function evaluations: 4105
+GS sector :  ['R0:N12:S0:1']
+4105 minimization steps, time(MIN)/time(ED)=0.00301, distance = 0.2439, delta_dist = 3.31%
+updated bath parameters:
+eb1_1     = -0.30845	eb2_1     = -0.27162	eb3_1     = -0.27163	eb4_1     = -0.20829	eb5_1     =  0.12841	
+eb6_1     =  0.80197	eb7_1     =  0.80197	eb8_1     =  1.0453	tb1_1     =  0.21172	tb2_1     =  0.22011	
+tb3_1     =  0.22011	tb4_1     = -0.22511	tb5_1     =  0.19747	tb6_1     = -0.41729	tb7_1     = -0.41729	
+tb8_1     =  0.54363	
+
+Broyden iteration 3
+|delta x| = 0.0212658
+differences in self-energy : 0.0177	0.0122	
+consistency for cluster  1  : GF =  0.870842823744279 	GS =  0.8708428236189825
+Optimization terminated successfully.
+         Current function value: 0.247197
+         Iterations: 1951
+         Function evaluations: 4018
+GS sector :  ['R0:N12:S0:1']
+4018 minimization steps, time(MIN)/time(ED)=0.00306, distance = 0.2472, delta_dist = 1.37%
+updated bath parameters:
+eb1_1     = -0.29849	eb2_1     = -0.2663	eb3_1     = -0.2663	eb4_1     = -0.20726	eb5_1     =  0.12059	
+eb6_1     =  0.80002	eb7_1     =  0.80002	eb8_1     =  1.0447	tb1_1     =  0.21063	tb2_1     =  0.21974	
+tb3_1     =  0.21974	tb4_1     = -0.2256	tb5_1     =  0.19433	tb6_1     = -0.41673	tb7_1     = -0.41673	
+tb8_1     =  0.54329	
+
+Broyden iteration 4
+|delta x| = 0.00858145
+differences in self-energy : 0.0123	0.00261	
+consistency for cluster  1  : GF =  0.8705998692769491 	GS =  0.8705998691540767
+Optimization terminated successfully.
+         Current function value: 0.245708
+         Iterations: 1684
+         Function evaluations: 3713
+GS sector :  ['R0:N12:S0:1']
+3713 minimization steps, time(MIN)/time(ED)=0.00278, distance = 0.2457, delta_dist = 0.602%
+updated bath parameters:
+eb1_1     = -0.30185	eb2_1     = -0.26793	eb3_1     = -0.26793	eb4_1     = -0.20746	eb5_1     =  0.1246	
+eb6_1     =  0.79939	eb7_1     =  0.79939	eb8_1     =  1.0424	tb1_1     =  0.21103	tb2_1     =  0.2198	
+tb3_1     =  0.2198	tb4_1     = -0.22537	tb5_1     =  0.19587	tb6_1     = -0.41698	tb7_1     = -0.41698	
+tb8_1     =  0.54337	
+
+Broyden iteration 5
+|delta x| = 0.0017191
+differences in self-energy : 0.00279	0.00167	
+consistency for cluster  1  : GF =  0.8705583300053307 	GS =  0.8705583298825615
+Optimization terminated successfully.
+         Current function value: 0.245578
+         Iterations: 1714
+         Function evaluations: 3726
+GS sector :  ['R0:N12:S0:1']
+3726 minimization steps, time(MIN)/time(ED)=0.00277, distance = 0.2456, delta_dist = 0.0529%
+updated bath parameters:
+eb1_1     = -0.30187	eb2_1     = -0.26799	eb3_1     = -0.26799	eb4_1     = -0.20747	eb5_1     =  0.12472	
+eb6_1     =  0.80002	eb7_1     =  0.80002	eb8_1     =  1.0429	tb1_1     =  0.21102	tb2_1     =  0.21979	
+tb3_1     =  0.21979	tb4_1     = -0.22534	tb5_1     =  0.1959	tb6_1     = -0.41707	tb7_1     = -0.41707	
+tb8_1     =  0.54347	
+
+Broyden iteration 6
+|delta x| = 0.000363147
+consistency for cluster  1  : GF =  0.8705769135976261 	GS =  0.8705769134750768
+------------------------- converged variational parameters (5 iterations) -------------------------
+eb1_1     = -0.30193	eb2_1     = -0.26801	eb3_1     = -0.26801	eb4_1     = -0.20747	eb5_1     =  0.12471	
+eb6_1     =  0.79991	eb7_1     =  0.79991	eb8_1     =  1.0428	tb1_1     =  0.21103	tb2_1     =  0.2198	
+tb3_1     =  0.2198	tb4_1     = -0.22534	tb5_1     =  0.1959	tb6_1     = -0.41705	tb7_1     = -0.41705	
+tb8_1     =  0.54345	
+<mu> = 0.862837756
+<t> = -0.998868783
+<t1> = -0.0553690655
+consistency for cluster  1  : GF =  0.8705769135976261 	GS =  0.8705769134750768
+*********************************** CDMFT completed successfully ***********************************
+consistency for cluster  1  : GF =  0.8705769135976261 	GS =  0.8705769134750768
+mu = 1.4, n = 0.862838
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  4
+----------------------------------------------------------------------------------------------------
+consistency for cluster  1  : GF =  0.8902205281585777 	GS =  0.8902205280261397
+Optimization terminated successfully.
+         Current function value: 0.260237
+         Iterations: 2835
+         Function evaluations: 5163
+GS sector :  ['R0:N12:S0:1']
+5163 minimization steps, time(MIN)/time(ED)=0.00402, distance = 0.2602, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.22204	eb2_1     = -0.1553	eb3_1     = -0.1553	eb4_1     = -0.19491	eb5_1     =  0.019821	
+eb6_1     =  0.85724	eb7_1     =  0.85724	eb8_1     =  1.0978	tb1_1     =  0.20721	tb2_1     =  0.20589	
+tb3_1     =  0.20589	tb4_1     = -0.2317	tb5_1     =  0.12347	tb6_1     = -0.40203	tb7_1     = -0.40203	
+tb8_1     =  0.5318	
+
+Broyden iteration 1
+|delta x| = 0.242437
+consistency for cluster  1  : GF =  0.846972502451276 	GS =  0.8469725022340788
+Optimization terminated successfully.
+         Current function value: 0.271387
+         Iterations: 2495
+         Function evaluations: 4618
+GS sector :  ['R0:N10:S0:1']
+4618 minimization steps, time(MIN)/time(ED)=0.00358, distance = 0.2714, delta_dist = 4.28%
+updated bath parameters:
+eb1_1     = -0.30309	eb2_1     = -0.23696	eb3_1     = -0.23696	eb4_1     = -0.16944	eb5_1     =  0.35808	
+eb6_1     =  0.62964	eb7_1     =  0.62964	eb8_1     =  0.75379	tb1_1     =  0.21101	tb2_1     =  0.2099	
+tb3_1     =  0.2099	tb4_1     = -0.21586	tb5_1     =  0.24074	tb6_1     = -0.41327	tb7_1     = -0.41327	
+tb8_1     =  0.53062	
+
+Broyden iteration 2
+|delta x| = 0.207239
+consistency for cluster  1  : GF =  0.8464149245198752 	GS =  0.8464149243174802
+Optimization terminated successfully.
+         Current function value: 0.269358
+         Iterations: 2799
+         Function evaluations: 5207
+GS sector :  ['R0:N10:S0:1']
+5207 minimization steps, time(MIN)/time(ED)=0.00429, distance = 0.2694, delta_dist = 0.748%
+updated bath parameters:
+eb1_1     = -0.30692	eb2_1     = -0.23172	eb3_1     = -0.23172	eb4_1     = -0.16614	eb5_1     =  0.36221	
+eb6_1     =  0.63914	eb7_1     =  0.63914	eb8_1     =  0.76676	tb1_1     =  0.21203	tb2_1     =  0.20929	
+tb3_1     =  0.20929	tb4_1     = -0.21538	tb5_1     =  0.24257	tb6_1     = -0.41545	tb7_1     = -0.41545	
+tb8_1     =  0.53355	
+
+Broyden iteration 3
+|delta x| = 0.36364
+differences in self-energy : 0.241	0.0142	
+consistency for cluster  1  : GF =  0.883804840820144 	GS =  0.883804840673931
+Optimization terminated successfully.
+         Current function value: 0.224795
+         Iterations: 3082
+         Function evaluations: 5451
+GS sector :  ['R0:N12:S0:1']
+5451 minimization steps, time(MIN)/time(ED)=0.00447, distance = 0.2248, delta_dist = 16.5%
+updated bath parameters:
+eb1_1     = -0.17599	eb2_1     = -0.17083	eb3_1     = -0.17083	eb4_1     = -0.2005	eb5_1     =  0.032554	
+eb6_1     =  0.93587	eb7_1     =  0.93587	eb8_1     =  1.1611	tb1_1     =  0.19409	tb2_1     =  0.20524	
+tb3_1     =  0.20524	tb4_1     = -0.22677	tb5_1     =  0.12799	tb6_1     = -0.41806	tb7_1     = -0.41806	
+tb8_1     =  0.54835	
+
+Broyden iteration 4
+|delta x| = 0.23784
+differences in self-energy : 0.235	0.228	
+consistency for cluster  1  : GF =  0.892847002751415 	GS =  0.8928470025907513
+Optimization terminated successfully.
+         Current function value: 0.263542
+         Iterations: 3187
+         Function evaluations: 5580
+GS sector :  ['R0:N12:S0:1']
+5580 minimization steps, time(MIN)/time(ED)=0.00463, distance = 0.2635, delta_dist = 17.2%
+updated bath parameters:
+eb1_1     = -0.2614	eb2_1     = -0.22044	eb3_1     = -0.22044	eb4_1     = -0.21014	eb5_1     =  0.029954	
+eb6_1     =  0.87178	eb7_1     =  0.87178	eb8_1     =  1.131	tb1_1     =  0.20812	tb2_1     =  0.2163	
+tb3_1     =  0.2163	tb4_1     = -0.22976	tb5_1     =  0.1355	tb6_1     = -0.40654	tb7_1     = -0.40654	
+tb8_1     =  0.5352	
+
+Broyden iteration 5
+|delta x| = 0.537458
+differences in self-energy : 0.262	0.0559	
+consistency for cluster  1  : GF =  0.9329489947905217 	GS =  0.9329489947150365
+Optimization terminated successfully.
+         Current function value: 0.335331
+         Iterations: 2728
+         Function evaluations: 5120
+GS sector :  ['R0:N14:S0:1']
+5120 minimization steps, time(MIN)/time(ED)=0.00408, distance = 0.3353, delta_dist = 27.2%
+updated bath parameters:
+eb1_1     = -0.41603	eb2_1     = -0.26722	eb3_1     = -0.26722	eb4_1     = -0.2136	eb5_1     =  0.076653	
+eb6_1     =  0.649	eb7_1     =  0.649	eb8_1     =  1.2106	tb1_1     =  0.22355	tb2_1     =  0.2247	
+tb3_1     =  0.2247	tb4_1     = -0.23731	tb5_1     =  0.18602	tb6_1     = -0.35626	tb7_1     = -0.35626	
+tb8_1     =  0.5038	
+
+Broyden iteration 6
+|delta x| = 0.249631
+differences in self-energy : 0.428	0.388	
+consistency for cluster  1  : GF =  0.8952042226027017 	GS =  0.895204222477786
+Optimization terminated successfully.
+         Current function value: 0.282837
+         Iterations: 2631
+         Function evaluations: 4878
+GS sector :  ['R0:N12:S0:1']
+4878 minimization steps, time(MIN)/time(ED)=0.00388, distance = 0.2828, delta_dist = 15.7%
+updated bath parameters:
+eb1_1     = -0.26108	eb2_1     = -0.24006	eb3_1     = -0.24006	eb4_1     = -0.21763	eb5_1     =  0.03778	
+eb6_1     =  0.72994	eb7_1     =  0.72994	eb8_1     =  0.98759	tb1_1     =  0.21055	tb2_1     =  0.22144	
+tb3_1     =  0.22144	tb4_1     = -0.23414	tb5_1     =  0.14422	tb6_1     = -0.39148	tb7_1     = -0.39148	
+tb8_1     =  0.51808	
+
+Broyden iteration 7
+|delta x| = 0.377859
+differences in self-energy : 0.0593	0.416	
+consistency for cluster  1  : GF =  0.8920112433855277 	GS =  0.8920112431564643
+Optimization terminated successfully.
+         Current function value: 0.270252
+         Iterations: 2506
+         Function evaluations: 4733
+GS sector :  ['R0:N12:S0:1']
+4733 minimization steps, time(MIN)/time(ED)=0.00336, distance = 0.2703, delta_dist = 4.45%
+updated bath parameters:
+eb1_1     = -0.2444	eb2_1     = -0.22299	eb3_1     = -0.22299	eb4_1     = -0.20601	eb5_1     =  0.035769	
+eb6_1     =  0.80064	eb7_1     =  0.80064	eb8_1     =  1.048	tb1_1     =  0.20492	tb2_1     =  0.2158	
+tb3_1     =  0.2158	tb4_1     = -0.22851	tb5_1     =  0.13933	tb6_1     = -0.40105	tb7_1     = -0.40105	
+tb8_1     =  0.52748	
+
+Broyden iteration 8
+|delta x| = 0.169756
+differences in self-energy : 0.41	0.0282	
+consistency for cluster  1  : GF =  0.8933271505141707 	GS =  0.8933271503563552
+Optimization terminated successfully.
+         Current function value: 0.275361
+         Iterations: 1975
+         Function evaluations: 4168
+GS sector :  ['R0:N12:S0:1']
+4168 minimization steps, time(MIN)/time(ED)=0.00307, distance = 0.2754, delta_dist = 1.89%
+updated bath parameters:
+eb1_1     = -0.25441	eb2_1     = -0.23645	eb3_1     = -0.23645	eb4_1     = -0.21456	eb5_1     =  0.037541	
+eb6_1     =  0.76462	eb7_1     =  0.76461	eb8_1     =  1.0139	tb1_1     =  0.208	tb2_1     =  0.21938	
+tb3_1     =  0.21938	tb4_1     = -0.23157	tb5_1     =  0.14197	tb6_1     = -0.39653	tb7_1     = -0.39653	
+tb8_1     =  0.52268	
+
+Broyden iteration 9
+|delta x| = 0.0241762
+differences in self-energy : 0.0139	0.0148	
+consistency for cluster  1  : GF =  0.8932480600260662 	GS =  0.8932480598576988
+Optimization terminated successfully.
+         Current function value: 0.276763
+         Iterations: 2034
+         Function evaluations: 4259
+GS sector :  ['R0:N12:S0:1']
+4259 minimization steps, time(MIN)/time(ED)=0.00313, distance = 0.2768, delta_dist = 0.509%
+updated bath parameters:
+eb1_1     = -0.25256	eb2_1     = -0.23634	eb3_1     = -0.23635	eb4_1     = -0.21485	eb5_1     =  0.037976	
+eb6_1     =  0.75363	eb7_1     =  0.75363	eb8_1     =  1.0014	tb1_1     =  0.20799	tb2_1     =  0.2195	
+tb3_1     =  0.2195	tb4_1     = -0.23186	tb5_1     =  0.14224	tb6_1     = -0.39541	tb7_1     = -0.39541	
+tb8_1     =  0.52137	
+
+Broyden iteration 10
+|delta x| = 0.0147452
+differences in self-energy : 0.0195	0.00558	
+consistency for cluster  1  : GF =  0.8931341192237517 	GS =  0.8931341191019619
+Optimization terminated successfully.
+         Current function value: 0.275959
+         Iterations: 2045
+         Function evaluations: 4141
+GS sector :  ['R0:N12:S0:1']
+4141 minimization steps, time(MIN)/time(ED)=0.00306, distance = 0.276, delta_dist = 0.291%
+updated bath parameters:
+eb1_1     = -0.25277	eb2_1     = -0.23675	eb3_1     = -0.23675	eb4_1     = -0.21482	eb5_1     =  0.038087	
+eb6_1     =  0.75718	eb7_1     =  0.75718	eb8_1     =  1.0046	tb1_1     =  0.20788	tb2_1     =  0.21945	
+tb3_1     =  0.21945	tb4_1     = -0.23167	tb5_1     =  0.14222	tb6_1     = -0.3959	tb7_1     = -0.3959	
+tb8_1     =  0.52185	
+
+Broyden iteration 11
+|delta x| = 0.00538377
+differences in self-energy : 0.00435	0.00149	
+consistency for cluster  1  : GF =  0.8930148329410561 	GS =  0.8930148327010268
+Optimization terminated successfully.
+         Current function value: 0.275761
+         Iterations: 1891
+         Function evaluations: 4018
+GS sector :  ['R0:N12:S0:1']
+4018 minimization steps, time(MIN)/time(ED)=0.00295, distance = 0.2758, delta_dist = 0.0717%
+updated bath parameters:
+eb1_1     = -0.25219	eb2_1     = -0.23657	eb3_1     = -0.23657	eb4_1     = -0.21478	eb5_1     =  0.038096	
+eb6_1     =  0.75719	eb7_1     =  0.75719	eb8_1     =  1.0038	tb1_1     =  0.20779	tb2_1     =  0.21938	
+tb3_1     =  0.21938	tb4_1     = -0.23161	tb5_1     =  0.14211	tb6_1     = -0.39598	tb7_1     = -0.39598	
+tb8_1     =  0.52188	
+
+Broyden iteration 12
+|delta x| = 0.00322359
+consistency for cluster  1  : GF =  0.8929678589758947 	GS =  0.8929678587172609
+------------------------- converged variational parameters (11 iterations) -------------------------
+eb1_1     = -0.25189	eb2_1     = -0.23657	eb3_1     = -0.23657	eb4_1     = -0.21475	eb5_1     =  0.038347	
+eb6_1     =  0.75715	eb7_1     =  0.75715	eb8_1     =  1.003	tb1_1     =  0.20773	tb2_1     =  0.21936	
+tb3_1     =  0.21936	tb4_1     = -0.23157	tb5_1     =  0.14211	tb6_1     = -0.39608	tb7_1     = -0.39608	
+tb8_1     =  0.52191	
+<mu> = 0.884553525
+<t> = -0.97267533
+<t1> = -0.073175778
+consistency for cluster  1  : GF =  0.8929678589758947 	GS =  0.8929678587172609
+*********************************** CDMFT completed successfully ***********************************
+consistency for cluster  1  : GF =  0.892967858975933 	GS =  0.8929678588609722
+mu = 1.6, n = 0.884554
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  4
+----------------------------------------------------------------------------------------------------
+consistency for cluster  1  : GF =  0.8899577828173966 	GS =  0.8899577826447943
+Optimization terminated successfully.
+         Current function value: 0.270769
+         Iterations: 2154
+         Function evaluations: 4409
+GS sector :  ['R0:N12:S0:1']
+4409 minimization steps, time(MIN)/time(ED)=0.00323, distance = 0.2708, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.25958	eb2_1     = -0.25506	eb3_1     = -0.25506	eb4_1     = -0.21782	eb5_1     =  0.053818	
+eb6_1     =  0.74892	eb7_1     =  0.74892	eb8_1     =  0.99403	tb1_1     =  0.20783	tb2_1     =  0.22127	
+tb3_1     =  0.22127	tb4_1     = -0.2309	tb5_1     =  0.15448	tb6_1     = -0.39833	tb7_1     = -0.39833	
+tb8_1     =  0.52368	
+
+Broyden iteration 1
+|delta x| = 0.0374498
+consistency for cluster  1  : GF =  0.8885770380871209 	GS =  0.8885770379625322
+Optimization terminated successfully.
+         Current function value: 0.272101
+         Iterations: 2027
+         Function evaluations: 4157
+GS sector :  ['R0:N12:S0:1']
+4157 minimization steps, time(MIN)/time(ED)=0.00308, distance = 0.2721, delta_dist = 0.492%
+updated bath parameters:
+eb1_1     = -0.23321	eb2_1     = -0.22057	eb3_1     = -0.22057	eb4_1     = -0.20799	eb5_1     =  0.036835	
+eb6_1     =  0.77398	eb7_1     =  0.77398	eb8_1     =  1.0155	tb1_1     =  0.20474	tb2_1     =  0.21659	
+tb3_1     =  0.21659	tb4_1     = -0.23057	tb5_1     =  0.14076	tb6_1     = -0.40025	tb7_1     = -0.40025	
+tb8_1     =  0.52656	
+
+Broyden iteration 2
+|delta x| = 0.0260578
+consistency for cluster  1  : GF =  0.8891669798338402 	GS =  0.8891669796746563
+Optimization terminated successfully.
+         Current function value: 0.271528
+         Iterations: 1854
+         Function evaluations: 3971
+GS sector :  ['R0:N12:S0:1']
+3971 minimization steps, time(MIN)/time(ED)=0.00287, distance = 0.2715, delta_dist = 0.211%
+updated bath parameters:
+eb1_1     = -0.24659	eb2_1     = -0.24027	eb3_1     = -0.24027	eb4_1     = -0.21328	eb5_1     =  0.044232	
+eb6_1     =  0.76285	eb7_1     =  0.76284	eb8_1     =  1.0064	tb1_1     =  0.20616	tb2_1     =  0.21928	
+tb3_1     =  0.21928	tb4_1     = -0.23054	tb5_1     =  0.14712	tb6_1     = -0.39961	tb7_1     = -0.39961	
+tb8_1     =  0.52541	
+
+Broyden iteration 3
+|delta x| = 0.00688332
+differences in self-energy : 0.00574	0.00554	
+consistency for cluster  1  : GF =  0.889388139094908 	GS =  0.8893881389175919
+Optimization terminated successfully.
+         Current function value: 0.272148
+         Iterations: 1922
+         Function evaluations: 4026
+GS sector :  ['R0:N12:S0:1']
+4026 minimization steps, time(MIN)/time(ED)=0.00295, distance = 0.2721, delta_dist = 0.228%
+updated bath parameters:
+eb1_1     = -0.24672	eb2_1     = -0.24013	eb3_1     = -0.24013	eb4_1     = -0.21349	eb5_1     =  0.043964	
+eb6_1     =  0.7617	eb7_1     =  0.7617	eb8_1     =  1.0059	tb1_1     =  0.20622	tb2_1     =  0.21931	
+tb3_1     =  0.21931	tb4_1     = -0.23066	tb5_1     =  0.14692	tb6_1     = -0.39925	tb7_1     = -0.39925	
+tb8_1     =  0.52506	
+
+Broyden iteration 4
+|delta x| = 0.00252795
+differences in self-energy : 0.00664	0.00162	
+consistency for cluster  1  : GF =  0.8894113179763805 	GS =  0.889411317835483
+Optimization terminated successfully.
+         Current function value: 0.271817
+         Iterations: 1862
+         Function evaluations: 4050
+GS sector :  ['R0:N12:S0:1']
+4050 minimization steps, time(MIN)/time(ED)=0.0029, distance = 0.2718, delta_dist = 0.122%
+updated bath parameters:
+eb1_1     = -0.24852	eb2_1     = -0.24268	eb3_1     = -0.24268	eb4_1     = -0.21414	eb5_1     =  0.045323	
+eb6_1     =  0.76013	eb7_1     =  0.76013	eb8_1     =  1.0043	tb1_1     =  0.20642	tb2_1     =  0.21963	
+tb3_1     =  0.21963	tb4_1     = -0.23065	tb5_1     =  0.148	tb6_1     = -0.39921	tb7_1     = -0.39921	
+tb8_1     =  0.52495	
+
+Broyden iteration 5
+|delta x| = 0.000773359
+differences in self-energy : 0.00177	0.00063	
+consistency for cluster  1  : GF =  0.8893870940778731 	GS =  0.8893870939199686
+Optimization terminated successfully.
+         Current function value: 0.271846
+         Iterations: 1713
+         Function evaluations: 3867
+GS sector :  ['R0:N12:S0:1']
+3867 minimization steps, time(MIN)/time(ED)=0.00277, distance = 0.2718, delta_dist = 0.0107%
+updated bath parameters:
+eb1_1     = -0.24806	eb2_1     = -0.24207	eb3_1     = -0.24207	eb4_1     = -0.21397	eb5_1     =  0.044993	
+eb6_1     =  0.76065	eb7_1     =  0.76065	eb8_1     =  1.0048	tb1_1     =  0.20637	tb2_1     =  0.21955	
+tb3_1     =  0.21955	tb4_1     = -0.23064	tb5_1     =  0.14774	tb6_1     = -0.39925	tb7_1     = -0.39925	
+tb8_1     =  0.52501	
+
+Broyden iteration 6
+|delta x| = 8.00368e-05
+consistency for cluster  1  : GF =  0.8893928111291362 	GS =  0.8893928109775527
+------------------------- converged variational parameters (5 iterations) -------------------------
+eb1_1     = -0.24809	eb2_1     = -0.24211	eb3_1     = -0.24211	eb4_1     = -0.21398	eb5_1     =  0.045011	
+eb6_1     =  0.76061	eb7_1     =  0.76061	eb8_1     =  1.0047	tb1_1     =  0.20637	tb2_1     =  0.21956	
+tb3_1     =  0.21956	tb4_1     = -0.23064	tb5_1     =  0.14775	tb6_1     = -0.39925	tb7_1     = -0.39925	
+tb8_1     =  0.525	
+<mu> = 0.88135425
+<t> = -0.976883785
+<t1> = -0.0711466178
+consistency for cluster  1  : GF =  0.8893928111291362 	GS =  0.8893928109775527
+*********************************** CDMFT completed successfully ***********************************
+consistency for cluster  1  : GF =  0.8893928111291362 	GS =  0.8893928109775527
+mu = 1.56948, n = 0.881354
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  4
+----------------------------------------------------------------------------------------------------
+consistency for cluster  1  : GF =  0.8892854659489889 	GS =  0.889285465770437
+Optimization terminated successfully.
+         Current function value: 0.271684
+         Iterations: 1798
+         Function evaluations: 4034
+GS sector :  ['R0:N12:S0:1']
+4034 minimization steps, time(MIN)/time(ED)=0.00295, distance = 0.2717, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.24839	eb2_1     = -0.2428	eb3_1     = -0.2428	eb4_1     = -0.21409	eb5_1     =  0.045579	
+eb6_1     =  0.7603	eb7_1     =  0.7603	eb8_1     =  1.0044	tb1_1     =  0.20638	tb2_1     =  0.21963	
+tb3_1     =  0.21963	tb4_1     = -0.23062	tb5_1     =  0.14821	tb6_1     = -0.39933	tb7_1     = -0.39933	
+tb8_1     =  0.52506	
+
+Broyden iteration 1
+|delta x| = 0.00147457
+consistency for cluster  1  : GF =  0.8892339956762162 	GS =  0.8892339954762061
+Optimization terminated successfully.
+         Current function value: 0.271768
+         Iterations: 1899
+         Function evaluations: 3919
+GS sector :  ['R0:N12:S0:1']
+3919 minimization steps, time(MIN)/time(ED)=0.00283, distance = 0.2718, delta_dist = 0.0307%
+updated bath parameters:
+eb1_1     = -0.24736	eb2_1     = -0.24146	eb3_1     = -0.24146	eb4_1     = -0.2137	eb5_1     =  0.044891	
+eb6_1     =  0.76123	eb7_1     =  0.76123	eb8_1     =  1.0052	tb1_1     =  0.20625	tb2_1     =  0.21945	
+tb3_1     =  0.21945	tb4_1     = -0.2306	tb5_1     =  0.14766	tb6_1     = -0.3994	tb7_1     = -0.3994	
+tb8_1     =  0.52517	
+
+Broyden iteration 2
+|delta x| = 0.00100386
+consistency for cluster  1  : GF =  0.8892912705202716 	GS =  0.8892912703402573
+------------------------- converged variational parameters (1 iterations) -------------------------
+eb1_1     = -0.24803	eb2_1     = -0.24233	eb3_1     = -0.24233	eb4_1     = -0.21396	eb5_1     =  0.045336	
+eb6_1     =  0.76063	eb7_1     =  0.76063	eb8_1     =  1.0047	tb1_1     =  0.20633	tb2_1     =  0.21957	
+tb3_1     =  0.21957	tb4_1     = -0.23061	tb5_1     =  0.14801	tb6_1     = -0.39935	tb7_1     = -0.39935	
+tb8_1     =  0.5251	
+<mu> = 0.881233894
+<t> = -0.976987077
+<t1> = -0.0710570015
+consistency for cluster  1  : GF =  0.8892912705202716 	GS =  0.8892912703402573
+*********************************** CDMFT completed successfully ***********************************
+
+consistency for cluster  1  : GF =  0.8892912705202716 	GS =  0.8892912703402573
+mu = 1.5684, n = 0.881234
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  4
+----------------------------------------------------------------------------------------------------
+consistency for cluster  1  : GF =  0.889296717593526 	GS =  0.8892967174133729
+Optimization terminated successfully.
+         Current function value: 0.271570
+         Iterations: 1916
+         Function evaluations: 4012
+GS sector :  ['R0:N12:S0:1']
+4012 minimization steps, time(MIN)/time(ED)=0.00167, distance = 0.2716, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.24902	eb2_1     = -0.24358	eb3_1     = -0.24359	eb4_1     = -0.21432	eb5_1     =  0.045953	
+eb6_1     =  0.76009	eb7_1     =  0.76008	eb8_1     =  1.0042	tb1_1     =  0.20645	tb2_1     =  0.21973	
+tb3_1     =  0.21973	tb4_1     = -0.23061	tb5_1     =  0.14849	tb6_1     = -0.39933	tb7_1     = -0.39933	
+tb8_1     =  0.52504	
+
+Broyden iteration 1
+|delta x| = 0.0042276
+consistency for cluster  1  : GF =  0.8892268814016443 	GS =  0.889226881242922
+Optimization terminated successfully.
+         Current function value: 0.271936
+         Iterations: 1906
+         Function evaluations: 4016
+GS sector :  ['R0:N12:S0:1']
+4016 minimization steps, time(MIN)/time(ED)=0.00283, distance = 0.2719, delta_dist = 0.135%
+updated bath parameters:
+eb1_1     = -0.24645	eb2_1     = -0.24016	eb3_1     = -0.24017	eb4_1     = -0.21336	eb5_1     =  0.044223	
+eb6_1     =  0.7619	eb7_1     =  0.7619	eb8_1     =  1.0059	tb1_1     =  0.20616	tb2_1     =  0.21929	
+tb3_1     =  0.21929	tb4_1     = -0.23062	tb5_1     =  0.14713	tb6_1     = -0.39941	tb7_1     = -0.39941	
+tb8_1     =  0.52522	
+
+Broyden iteration 2
+|delta x| = 0.00260205
+consistency for cluster  1  : GF =  0.8892721341133694 	GS =  0.8892721338944353
+Optimization terminated successfully.
+         Current function value: 0.271719
+         Iterations: 1642
+         Function evaluations: 3727
+GS sector :  ['R0:N12:S0:1']
+3727 minimization steps, time(MIN)/time(ED)=0.0026, distance = 0.2717, delta_dist = 0.0798%
+updated bath parameters:
+eb1_1     = -0.24804	eb2_1     = -0.2423	eb3_1     = -0.2423	eb4_1     = -0.21395	eb5_1     =  0.045287	
+eb6_1     =  0.76074	eb7_1     =  0.76074	eb8_1     =  1.0048	tb1_1     =  0.20634	tb2_1     =  0.21957	
+tb3_1     =  0.21957	tb4_1     = -0.23061	tb5_1     =  0.14798	tb6_1     = -0.39936	tb7_1     = -0.39935	
+tb8_1     =  0.52511	
+
+Broyden iteration 3
+|delta x| = 5.10093e-05
+consistency for cluster  1  : GF =  0.8892694271321238 	GS =  0.8892694269560024
+------------------------- converged variational parameters (2 iterations) -------------------------
+eb1_1     = -0.24803	eb2_1     = -0.24228	eb3_1     = -0.24228	eb4_1     = -0.21395	eb5_1     =  0.045276	
+eb6_1     =  0.76076	eb7_1     =  0.76075	eb8_1     =  1.0048	tb1_1     =  0.20634	tb2_1     =  0.21956	
+tb3_1     =  0.21956	tb4_1     = -0.23061	tb5_1     =  0.14797	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52511	
+<mu> = 0.88124864
+<t> = -0.977030442
+<t1> = -0.0710815663
+consistency for cluster  1  : GF =  0.8892694271321238 	GS =  0.8892694269560024
+*********************************** CDMFT completed successfully ***********************************
+consistency for cluster  1  : GF =  0.8892694271320997 	GS =  0.8892694269545582
+mu = 1.56845, n = 0.881249
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  4
+----------------------------------------------------------------------------------------------------
+consistency for cluster  1  : GF =  0.8892662359000869 	GS =  0.8892662357292208
+Optimization terminated successfully.
+         Current function value: 0.271716
+         Iterations: 1708
+         Function evaluations: 3844
+GS sector :  ['R0:N12:S0:1']
+3844 minimization steps, time(MIN)/time(ED)=0.00277, distance = 0.2717, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.248	eb2_1     = -0.24227	eb3_1     = -0.24227	eb4_1     = -0.21394	eb5_1     =  0.045282	
+eb6_1     =  0.76076	eb7_1     =  0.76075	eb8_1     =  1.0048	tb1_1     =  0.20633	tb2_1     =  0.21956	
+tb3_1     =  0.21956	tb4_1     = -0.23061	tb5_1     =  0.14797	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52511	
+
+Broyden iteration 1
+|delta x| = 6.19569e-05
+consistency for cluster  1  : GF =  0.8892659992309978 	GS =  0.8892659990112389
+Optimization terminated successfully.
+         Current function value: 0.271708
+         Iterations: 1676
+         Function evaluations: 3728
+GS sector :  ['R0:N12:S0:1']
+3728 minimization steps, time(MIN)/time(ED)=0.00265, distance = 0.2717, delta_dist = 0.00275%
+updated bath parameters:
+eb1_1     = -0.24803	eb2_1     = -0.24231	eb3_1     = -0.24232	eb4_1     = -0.21395	eb5_1     =  0.045302	
+eb6_1     =  0.76075	eb7_1     =  0.76074	eb8_1     =  1.0048	tb1_1     =  0.20634	tb2_1     =  0.21957	
+tb3_1     =  0.21957	tb4_1     = -0.23061	tb5_1     =  0.14799	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52511	
+
+Broyden iteration 2
+|delta x| = 3.50033e-05
+consistency for cluster  1  : GF =  0.8892652113001833 	GS =  0.8892652111224126
+------------------------- converged variational parameters (1 iterations) -------------------------
+eb1_1     = -0.24802	eb2_1     = -0.24229	eb3_1     = -0.24229	eb4_1     = -0.21395	eb5_1     =  0.045291	
+eb6_1     =  0.76075	eb7_1     =  0.76075	eb8_1     =  1.0048	tb1_1     =  0.20633	tb2_1     =  0.21956	
+tb3_1     =  0.21956	tb4_1     = -0.23061	tb5_1     =  0.14798	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52511	
+<mu> = 0.881244869
+<t> = -0.97703476
+<t1> = -0.0710787243
+consistency for cluster  1  : GF =  0.8892652113001833 	GS =  0.8892652111224126
+*********************************** CDMFT completed successfully ***********************************
+consistency for cluster  1  : GF =  0.8892652113001713 	GS =  0.8892652111291183
+mu = 1.56842, n = 0.881245
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  4
+----------------------------------------------------------------------------------------------------
+consistency for cluster  1  : GF =  0.8892642107920079 	GS =  0.8892642106144939
+Optimization terminated successfully.
+         Current function value: 0.271715
+         Iterations: 1746
+         Function evaluations: 3894
+GS sector :  ['R0:N12:S0:1']
+3894 minimization steps, time(MIN)/time(ED)=0.00272, distance = 0.2717, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.24799	eb2_1     = -0.24225	eb3_1     = -0.24226	eb4_1     = -0.21394	eb5_1     =  0.045272	
+eb6_1     =  0.76078	eb7_1     =  0.76077	eb8_1     =  1.0048	tb1_1     =  0.20633	tb2_1     =  0.21956	
+tb3_1     =  0.21956	tb4_1     = -0.23061	tb5_1     =  0.14796	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52511	
+
+Broyden iteration 1
+|delta x| = 0.00012014
+consistency for cluster  1  : GF =  0.8892661925048403 	GS =  0.8892661922863769
+Optimization terminated successfully.
+         Current function value: 0.271705
+         Iterations: 1758
+         Function evaluations: 3912
+GS sector :  ['R0:N12:S0:1']
+3912 minimization steps, time(MIN)/time(ED)=0.00278, distance = 0.2717, delta_dist = 0.00388%
+updated bath parameters:
+eb1_1     = -0.24806	eb2_1     = -0.24235	eb3_1     = -0.24235	eb4_1     = -0.21396	eb5_1     =  0.045322	
+eb6_1     =  0.76073	eb7_1     =  0.76072	eb8_1     =  1.0048	tb1_1     =  0.20634	tb2_1     =  0.21957	
+tb3_1     =  0.21957	tb4_1     = -0.23061	tb5_1     =  0.148	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52511	
+
+Broyden iteration 2
+|delta x| = 7.41548e-05
+consistency for cluster  1  : GF =  0.8892628195258196 	GS =  0.8892628193549937
+------------------------- converged variational parameters (1 iterations) -------------------------
+eb1_1     = -0.24802	eb2_1     = -0.24229	eb3_1     = -0.24229	eb4_1     = -0.21395	eb5_1     =  0.045291	
+eb6_1     =  0.76076	eb7_1     =  0.76075	eb8_1     =  1.0048	tb1_1     =  0.20633	tb2_1     =  0.21956	
+tb3_1     =  0.21956	tb4_1     = -0.23061	tb5_1     =  0.14798	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52511	
+<mu> = 0.881245079
+<t> = -0.977038076
+<t1> = -0.0710799961
+consistency for cluster  1  : GF =  0.8892628195258196 	GS =  0.8892628193549937
+*********************************** CDMFT completed successfully ***********************************
+consistency for cluster  1  : GF =  0.8892628195258467 	GS =  0.889262819348525
+mu = 1.56841, n = 0.881245
+
+***************************************** CDMFT procedure *****************************************
+
+frequency grid type =  sharp
+fictitious inverse temperature =  100
+frequency cutoff =  4
+----------------------------------------------------------------------------------------------------
+consistency for cluster  1  : GF =  0.8892621922505995 	GS =  0.8892621920798638
+Optimization terminated successfully.
+         Current function value: 0.271720
+         Iterations: 1732
+         Function evaluations: 3819
+GS sector :  ['R0:N12:S0:1']
+3819 minimization steps, time(MIN)/time(ED)=0.00275, distance = 0.2717, delta_dist = 100%
+updated bath parameters:
+eb1_1     = -0.24794	eb2_1     = -0.24219	eb3_1     = -0.2422	eb4_1     = -0.21392	eb5_1     =  0.045244	
+eb6_1     =  0.76081	eb7_1     =  0.7608	eb8_1     =  1.0048	tb1_1     =  0.20632	tb2_1     =  0.21955	
+tb3_1     =  0.21955	tb4_1     = -0.23061	tb5_1     =  0.14794	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52512	
+
+Broyden iteration 1
+|delta x| = 0.000306801
+consistency for cluster  1  : GF =  0.8892674021748423 	GS =  0.8892674019970137
+Optimization terminated successfully.
+         Current function value: 0.271694
+         Iterations: 1720
+         Function evaluations: 3791
+GS sector :  ['R0:N12:S0:1']
+3791 minimization steps, time(MIN)/time(ED)=0.0027, distance = 0.2717, delta_dist = 0.0099%
+updated bath parameters:
+eb1_1     = -0.24813	eb2_1     = -0.24244	eb3_1     = -0.24245	eb4_1     = -0.21399	eb5_1     =  0.045372	
+eb6_1     =  0.76068	eb7_1     =  0.76067	eb8_1     =  1.0047	tb1_1     =  0.20635	tb2_1     =  0.21958	
+tb3_1     =  0.21958	tb4_1     = -0.23061	tb5_1     =  0.14804	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.5251	
+
+Broyden iteration 2
+|delta x| = 0.000189554
+consistency for cluster  1  : GF =  0.8892587964701292 	GS =  0.8892587962920783
+------------------------- converged variational parameters (1 iterations) -------------------------
+eb1_1     = -0.24802	eb2_1     = -0.24229	eb3_1     = -0.2423	eb4_1     = -0.21395	eb5_1     =  0.045293	
+eb6_1     =  0.76076	eb7_1     =  0.76075	eb8_1     =  1.0048	tb1_1     =  0.20633	tb2_1     =  0.21956	
+tb3_1     =  0.21956	tb4_1     = -0.23061	tb5_1     =  0.14798	tb6_1     = -0.39936	tb7_1     = -0.39936	
+tb8_1     =  0.52511	
+<mu> = 0.881247139
+<t> = -0.977042874
+<t1> = -0.0710849606
+consistency for cluster  1  : GF =  0.8892587964701292 	GS =  0.8892587962920783
+*********************************** CDMFT completed successfully ***********************************
+consistency for cluster  1  : GF =  0.8892587964701132 	GS =  0.8892587962982023
+mu = 1.56841, n = 0.881247
+converged
+<mu> = 0.881247139
+<t> = -0.977042874
+<t1> = -0.0710849606
+consistency for cluster  1  : GF =  0.8892587964701292 	GS =  0.8892587962920783
+******************************* computing the DoS, mixing=0, 1 bands *******************************
+(-4+0.1j) [ 0.060322]
+(-3.5+0.1j) [ 0.092141]
+(-3+0.1j) [ 0.060885]
+(-2.5+0.1j) [ 0.059736]
+(-2+0.1j) [ 0.141294]
+(-1.5+0.1j) [ 0.126526]
+(-1+0.1j) [ 0.058599]
+(-0.5+0.1j) [ 0.100772]
+(-0+0.1j) [ 0.11278]
+(0.5+0.1j) [ 0.088799]
+(1+0.1j) [ 0.089343]
+(1.5+0.1j) [ 0.059736]
+(2+0.1j) [ 0.030194]
+(2.5+0.1j) [ 0.026031]
+(3+0.1j) [ 0.032409]
+(3.5+0.1j) [ 0.018526]
+(4+0.1j) [ 0.023278]
+DoS totals:  [ 0.593819]
