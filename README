@@ -1,4 +1,3 @@
-"""
 CDMFT-ED (pyqcm) 2x2 plaquette 
 
 Description:
@@ -29,4 +28,3 @@ ii) A CDMFT run folder (plaquette) with subfolders associated to different types
 iii) An utils folder (putils) with auxiliary scripts to plot data or filter output information;
 
 For more information please read the README files inside the desired directory or go to the official documentation website https://qcm-wed.readthedocs.io/en/latest/index.html !
-"""

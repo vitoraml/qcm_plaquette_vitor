@@ -1,4 +1,4 @@
-### Conda enviroment pyqcm
+### Installing pyqcm in a conda environment
 
 # Getting and installing conda (if not done already)
 
@@ -14,7 +14,7 @@ conda activate qcm_conda
 # Installing dependency packages
 
 conda install python=3.10
-conda install numpy scipy matplotlib pandas omnia::eigen3 ninja
+conda install numpy scipy matplotlib pandas omnia::eigen3 cmake ninja conda-forge::gcc=11.4.0 conda-forge::gfortran=11.4.0 conda-forge::gxx=11.4.0
 
 # Exports
 
