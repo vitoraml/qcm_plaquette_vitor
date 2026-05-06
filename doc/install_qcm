@@ -19,8 +19,8 @@ conda install numpy scipy matplotlib pandas omnia::eigen3 cmake ninja conda-forg
 # Exports
 
 export CMAKE_ARGS="-DDOWNLOAD_CUBA=1 -DEIGEN_HAMILTONIAN=1 -DWITH_PRIMME=1 -DDOWNLOAD_PRIMME=1 -DWITH_GF_OPT_KERNEL=1 -DUSE_OPENMP=1"
-export CC=mpicc
-export CXX=mpicxx
+export CC=gcc
+export CXX=g++
 
 # Downloading and installing pyqcm
 
