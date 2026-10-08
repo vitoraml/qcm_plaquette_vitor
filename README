@@ -19,7 +19,7 @@ License: MIT
 
 Dependencies:
 - Python > 3.10.x
-- pyqcm >= 2.10.4
+- pyqcm = 2.10.4
 
 Structure:
 The package is organized in three parts:
